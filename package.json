@@ -1,0 +1,22 @@
+{
+  "name": "coinstats-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattsaxe17/coinstats-reader.git"
+  },
+  "author": "Matthew Saxe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattsaxe17/coinstats-reader/issues"
+  },
+  "homepage": "https://github.com/mattsaxe17/coinstats-reader#readme",
+  "dependencies": {
+    "puppeteer": "^15.5.0"
+  }
+}
