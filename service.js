@@ -22,7 +22,7 @@ function getOverview(page) {
     const mainPriceDiv = await page.$('span.main-price');
     const mainPrice = await page.evaluate(el => el.textContent, mainPriceDiv);
 
-    resolve({ total: mainPrice });
+    resolve({ total: parseFloat(mainPrice.match(/[\d.]+/g)?.join('')) });
   });
 }
 
